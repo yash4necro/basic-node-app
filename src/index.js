@@ -1,6 +1,15 @@
 import { add, sub, mod, prod } from "./math.js";
 
-console.log(add(3, 4));
-console.log(sub(3, 4));
-console.log(mod(3, 4));
-console.log(prod(3, 4));
+const a = (add(3, 4));
+const b = (sub(3, 4));
+const c = (mod(3, 4));
+const d = (prod(3, 4));
+
+const result = {
+    add: a,
+    sub: b,
+    mod: c,
+    prod: d
+}
+
+console.log(result);
